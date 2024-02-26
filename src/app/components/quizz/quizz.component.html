@@ -23,6 +23,11 @@
 
   <div *ngIf=finished class="quizz_results">
     <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
+    <div *ngIf="answerSelected === 'true'" class="vilain">
+      <p>"Você muito provavelmente seria um super vilão!"</p>
+
+    </div>
+    <div *ngIf="answerSelected === 'false'" class="hero">
+      <p>"Você muito provavelmente seria um super Herói!"</p>
   </div>
 </div>

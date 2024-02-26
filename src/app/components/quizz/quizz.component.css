@@ -73,3 +73,18 @@
   justify-content: center;
   align-items: center;
 }
+
+.vilain p{
+  background-color: #28aa33;
+  border-radius: 10px;
+  padding: 20px;
+  color: #000000;
+
+}
+.hero p{
+  background-color: #1c0cff;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+
+}
